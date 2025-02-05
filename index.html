@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        width: 100%;
+      }
+      nav {
+        display: flex;
+        align-items: center; 
+        gap:200px;
+        margin: 0 150px 0 0px;
+    }
+
+      a {
+        text-decoration: none;
+        color: darkgray;
+      }
+
+      .photo {
+        height: 50px;
+        width: 50px;
+      }
+      h1{
+        text-align: center;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-           <a href="#"><img src="" alt="photo"></a> 
-           <a href="#">Home</a>
-           <a href="#">Shop</a>
-           <a href="#">Cart</a>
-           <a href="#">About</a>
-        </nav>
+      <a href=""
+        ><img
+          src="https://prostomac.com/wp-content/uploads/2013/06/Photos-App-iOS-7-256.png"
+          alt="photo"
+          class="photo"
+      /></a>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Cart</a>
+        <a href="#">About</a>
+      </nav>
     </header>
-</body>
+    <main>
+        <section>
+            <h1>This is my shop!</h1>
+        </section>
+    </main>
+  </body>
 </html>
